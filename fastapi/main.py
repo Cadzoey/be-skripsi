@@ -33,5 +33,5 @@ else:
     except Exception as e:
         print(f"WARNING: Gagal mount storage. Folder tidak ditemukan di: {path_storage_laravel}")
 
-# uvicorn main:app --host 0.0.0.0 --port 8000 --reload
-# 192.168.137.1 192.168.100.175
+# uvicorn main:app --reload --host 0.0.0.0 --port 8080
+# php artisan serve
